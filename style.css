@@ -6,11 +6,12 @@ body{
   background-color:#2D25A0 ;
   display: flex ;
   justify-content: space-around;
-  
-}
+  }
+
 h1{
   font-size: 50px;
 }
+
 #link-button {
   background-color: rgb(226, 208, 214);
   padding: 10px 24px;
@@ -25,6 +26,29 @@ h1{
 button{
   padding: 10px 24px;
   color:white}
-  ._black-target{
 
+  /*......... players style...... */
+ .banner3{
+   margin-top: 50px;
+   margin-left: 50px;
+   margin-right: 20px;
+ }
+ 
+ 
+  .players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
   }
+  .player{
+    display:flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .player img{
+
+    width:260px;
+    height: 250px;
+  }
+
+
