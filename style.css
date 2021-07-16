@@ -1,0 +1,30 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  
+}
+.banner{
+  background-color:#2D25A0 ;
+  display: flex ;
+  justify-content: space-around;
+  
+}
+h1{
+  font-size: 50px;
+}
+#link-button {
+  background-color: rgb(226, 208, 214);
+  padding: 10px 24px;
+  text-decoration:none;
+}
+#link-button:hover{
+  background-color: rgb(245, 73, 73);
+}
+ div{
+  color:aliceblue
+}
+button{
+  padding: 10px 24px;
+  color:white}
+  ._black-target{
+
+  }
